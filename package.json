@@ -9,10 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@stripe/stripe-react-native": "0.28.0",
+    "card-react": "^1.2.7",
+    "credit-card-type": "^10.0.0",
     "expo": "~49.0.15",
+    "expo-credit-card": "^0.0.5",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "react-native-credit-card-input": "^0.4.1",
+    "react-native-input-credit-card": "^0.5.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
